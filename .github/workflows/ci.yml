@@ -39,7 +39,7 @@ jobs:
       AUTH_CORS: http://localhost:3100
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: oven-sh/setup-bun@v2
         with:
